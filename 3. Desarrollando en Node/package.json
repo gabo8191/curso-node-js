@@ -1,0 +1,17 @@
+{
+  "name": "3.-desarrollando-en-node",
+  "version": "1.0.0",
+  "description": "Curso de Fernando Herrera - Aplicación de Node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "start:dev": "echo 'Hola mundo'",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Gabriel Castillo",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
